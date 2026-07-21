@@ -1,0 +1,18 @@
+import React, { useState, useEffect } from "react";
+
+function UsandoHookUseEffect() {
+  const [contador, setContador] = useState(0);
+
+  useEffect(() => {
+    document.title = `Você clicou ${contador} vezes`;
+  });
+
+  return (
+    <div>
+      <p>Você clicou {contador} vezes</p>
+      <button onClick={() => setContador(contador + 1)}>Somar</button>
+    </div>
+  );
+}
+
+export default UsandoHookUseEffect;

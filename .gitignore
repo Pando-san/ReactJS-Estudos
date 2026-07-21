@@ -1,0 +1,82 @@
+# ==========================================
+# Dependências e Módulos
+# ==========================================
+/my-app/node_modules
+/my-app2/node_modules
+/node_modules
+/.pnp
+.pnp.js
+
+# ==========================================
+# Arquivos de Build e Saída
+# ==========================================
+/build
+/dist
+/out
+/.next
+/coverage
+
+# ==========================================
+# Logs e Debugging
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# ==========================================
+# Variáveis de Ambiente (Segurança!)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mantenha apenas o exemplo/template no repositório (opcional):
+! .env.example
+
+# ==========================================
+# Editores de Código e IDEs
+# ==========================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# WebStorm / IntelliJ
+.idea/
+
+# EditorConfig / Temp
+*.swp
+*.swo
+
+# ==========================================
+# Arquivos do Sistema Operacional
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+projeto.zip
+
+# ==========================================
+# Cache de Ferramentas e Frameworks
+# ==========================================
+.eslintcache
+.stylelintcache
+.turbo
+.parcel-cache
+.vitesse
+
